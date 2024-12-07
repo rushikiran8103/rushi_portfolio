@@ -12,8 +12,8 @@ git remote add origin https://github.com/rushikiran8103/rushi_portfolio.git
 git push -u origin main
 ```
 
-
-
+## default endpoint
+```java
 @GetMapping("/")
 	
 	public String base_port() 
@@ -21,8 +21,11 @@ git push -u origin main
 		return "base_port";
 		
 	}
-	
+```
+## resume endpoint
+```java
 	@GetMapping("/resume")
 	public String resume() {
 		return "resume";
 	}
+```
