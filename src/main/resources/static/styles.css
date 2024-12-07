@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #17a2b8 !important;
+    text-decoration: underline;
+}
+
+.resume-item {
+    border-left: 2px solid #17a2b8;
+    padding-left: 15px;
+    margin-bottom: 2rem;
+}
+
+.resume-item h3 {
+    color: #555;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.resume-item p {
+    color: #666;
+}
+
+.resume-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-item ul li {
+    color: #555;
+    margin-bottom: 5px;
+}
