@@ -11,3 +11,18 @@ git branch -M main
 git remote add origin https://github.com/rushikiran8103/rushi_portfolio.git
 git push -u origin main
 ```
+
+
+
+@GetMapping("/")
+	
+	public String base_port() 
+	{
+		return "base_port";
+		
+	}
+	
+	@GetMapping("/resume")
+	public String resume() {
+		return "resume";
+	}
